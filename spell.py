@@ -32,6 +32,7 @@ class Spell:
         :return: str - Description of the spell
         """
         return f"{self.name}: Damage: {self.damage}, Effect: '{self.effect}', Mana Cost: {self.mana_cost}, Cooldown: {self.cooldown}"
+    
 print(Spell_type := Spell("Fireball", 50, "burns for 10 damage", 20, 3))         
             
            
